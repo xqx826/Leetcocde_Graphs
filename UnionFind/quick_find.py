@@ -3,7 +3,7 @@
 Each index represents a node and the value = the root node of that node
 """
 
-class UnionFind:
+class UnionFind_QuickFind:
     def __init__(self, size):
         self.root = [i for i in range(size)]
     
@@ -24,7 +24,7 @@ class UnionFind:
         return self.find(x) == self.find(y)
 
 # Test Case
-uf = UnionFind(10)
+uf = UnionFind_QuickFind(10)
 # 1-2-5-6-7 3-8-9 4
 uf.union(1, 2)
 uf.union(2, 5)
