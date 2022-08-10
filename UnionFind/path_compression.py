@@ -1,7 +1,5 @@
 # optimization for quick union
-
-from re import S
-
+ 
 
 class FindUnion_PathComp:
     def __init__(self, size):
